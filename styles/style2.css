@@ -1,4 +1,15 @@
 html{
     font-family:'Times New Roman', Times, serif;
-    
+    background-color: aquamarine;
+    font-size: 12;
+}
+
+h1{
+    padding: 2cm;
+    margin: 3cm;
+    font-size: 18;
+}
+
+li{
+    line-height: 1.5cm;
 }
