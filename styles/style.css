@@ -1,0 +1,91 @@
+/*this is for index-starter.html */
+
+/* these apply in general to all sites */
+
+html{
+    
+    background-color: #000000;
+    font-size: 52px;
+    font-family: "open sans", sans-serif;
+    text-shadow: 4px 4px #11d197;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+    transform: skewX(40deg);
+}
+
+
+h1{
+    font-family: open, sans-serif;
+}
+p{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+ul{
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.bold{
+    font-weight: bold;
+}
+li.bold{
+    font-style: italic;
+}
+p.bold{
+    text-decoration: underline;
+}
+.col{
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:aqua;
+    color-adjust: unset;
+    text-decoration: wavy;
+    text-transform:capitalize;
+    margin-left: 100px;
+}
+#nice{
+    text-decoration: double;
+    color:hotpink;
+    font-stretch: ultra-expanded;
+    font-size: xx-large;
+    margin-bottom:40px;
+}
+
+div.coolbox{
+    border: 8px dotted  red ;
+    padding: 15px 20px;
+    margin: 10px;
+}
+span.lang{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+/* This is for thirdpage.html */
+
+.button {
+    color: red;
+    font-size: 12;
+    font: Times;
+    margin: 8px 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button1{
+    background-color: aqua;
+    cursor: zoom-in;
+}
+.button2{
+    background-color: rgb(19, 180, 113);
+    cursor: zoom-out;
+    padding: 200px 200px;
+}
