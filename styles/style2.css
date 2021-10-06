@@ -28,3 +28,10 @@ li{
  font-size: medium;
  font: #4906e7;
 }
+
+div{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) round;
+    border-image-slice: 40%;
+}
