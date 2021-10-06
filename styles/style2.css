@@ -27,6 +27,7 @@ li{
  font-style: italic;
  font-size: medium;
  font: #4906e7;
+ margin: 5px 10px 20px 15px;
 }
 
 div{
@@ -34,4 +35,10 @@ div{
     padding: 15px;
     border-image: url(border.png) round;
     border-image-slice: 40%;
+}
+
+#pogging{
+    position:absolute;
+    left:500px;
+    top:1000px;
 }
