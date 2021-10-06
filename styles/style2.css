@@ -20,11 +20,11 @@ li{
 
 .centered{
     margin: 0 auto;
-    padding-left: 12cm;
+    padding-left: 6cm;
 }
 
 #description{
  font-style: italic;
  font-size: medium;
- 
+ font: #4906e7;
 }
