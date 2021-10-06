@@ -16,6 +16,8 @@ li{
 
 .centered{
     margin: 0 auto;
-    padding: 5cm;
-    border: 3cm blueviolet;
+}
+
+#description{
+    
 }
