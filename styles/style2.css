@@ -31,10 +31,13 @@ li{
 }
 
 div{
-    position:relative;
-    top:15px;
-    border: 10px solid transparent;
-    /*padding: 15px;*/
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    border: 2px solid transparent;
+    border-color: blueviolet;
+    padding: 15px;
     border-image: url(border.png) round;
     border-image-slice: 40%;
 }
@@ -42,14 +45,14 @@ div{
 #pogging{
     position:absolute;
     left:200px;
-    top:30px;
-    /*
-    position:absolute;
-    left:200px;
-
-    position: fixed;
+    
     border: 1px solid blue;  
     bottom: 0;
-    right: 0;
-    */
+    
 }
+/*
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position2
+
+
+*/
