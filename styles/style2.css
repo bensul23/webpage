@@ -29,7 +29,7 @@ li{
 }
 
 #description{
-    position:fixed;
+    position:relative;
     left:500px;
     bottom:10px;
     font-style: italic;
@@ -50,11 +50,9 @@ div.list{
 }
 
 #pogging{
-    position:absolute;
-    left:1000px;
-    width:30%;
-    bottom: 0;
-    line-break:anywhere;
+    position:fixed;
+    right:0;
+    bottom: 250px;
 }
 /*
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
