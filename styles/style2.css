@@ -15,7 +15,7 @@ li{
 }
 
 #name{
-    margin:auto;
+    left:0;
 }
 
 .centered{
@@ -30,8 +30,8 @@ li{
 
 #description{
     position:absolute;
-    left:250px;
-    bottom:0;
+    left:50%;
+    bottom:10px;
     font-style: italic;
     font-size: medium;
     font:#4906e7;
@@ -39,22 +39,19 @@ li{
 }
 
 div.list{
-    position:static;
+    position:relative;
     left:0;
     right:0;
     bottom:0;
     border: 2px solid transparent;
     border-color: blueviolet;
-    padding: 15px;
     border-image: url(border.png) round;
     border-image-slice: 40%;
 }
 
 #pogging{
-    position:fixed;
+    position:absolute;
     left:200px;
-    
-    border: 1px solid blue;  
     bottom: 0;
     
 }
