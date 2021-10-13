@@ -51,8 +51,10 @@ div.list{
 
 #pogging{
     position:absolute;
-    left:400px;
+    left:1000px;
+    width:30%;
     bottom: 0;
+    line-break:anywhere;
 }
 /*
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
