@@ -32,8 +32,9 @@ li{
     bottom:10px;
     font-style: italic;
     font-size: medium;
-    font:#4906e7;
+    color:#4906e7;
     margin: 5px 10px 20px 15px;
+    font-size: 20;
 }
 
 div.list{
