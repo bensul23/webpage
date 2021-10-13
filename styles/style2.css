@@ -54,6 +54,10 @@ div.list{
     right:0;
     bottom:0px;
 }
+
+#pogtext{
+    background-color: honeydew;
+}
 /*
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position2
