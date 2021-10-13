@@ -57,7 +57,9 @@ div.list{
 
 #pogtext{
     background-color: honeydew;
-    padding:5ps;
+    padding:5px;
+    width:200px;
+    height:50px;
     border:solid blue;
 }
 /*
