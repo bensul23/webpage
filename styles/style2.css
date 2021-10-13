@@ -57,6 +57,8 @@ div.list{
 
 #pogtext{
     background-color: honeydew;
+    padding:5ps;
+    border:solid blue;
 }
 /*
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
