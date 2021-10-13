@@ -47,8 +47,10 @@ div.list{
     border-image-slice: 40%;
 }
 
-#pogging{
+.pogging{
     position:fixed;
+    width:fit-content;
+    height:fit-content;
     right:0;
     bottom:0px;
 }
