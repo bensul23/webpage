@@ -29,8 +29,8 @@ li{
 }
 
 #description{
-    position:absolute;
-    left:50%;
+    position:fixed;
+    left:500px;
     bottom:10px;
     font-style: italic;
     font-size: medium;
@@ -51,9 +51,8 @@ div.list{
 
 #pogging{
     position:absolute;
-    left:200px;
+    left:400px;
     bottom: 0;
-    
 }
 /*
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
