@@ -17,8 +17,8 @@ li{
 }
 
 .centered{
-    margin: 0 auto;
-    padding-left: 6cm;
+    /*margin: 0 auto;*/
+    padding-left: 10cm;
 }
 
 #picture{
@@ -40,7 +40,6 @@ li{
 div.list{
     position:relative;
     left:0;
-    right:0;
     bottom:0;
     border: 2px solid transparent;
     border-color: blueviolet;
