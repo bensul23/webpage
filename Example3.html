@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My To Do List</h1>
+
+    <input type="text"><button id="Add">Add</button>
+
+    <ul class="list">
+
+    </ul>
+
+
+    <script>    
+
+        // function addToList(content){
+        //     let itemElm = document.createElement("li")
+        //     itemElm.textContent = content
+        //     let listElm = document.querySelector("ul")
+        //     listElm.appendChild(itemElm)
+        // }
+
+        // function getUserItem(){
+        //     let inputElm = document.querySelector("input");
+        //     addToList(inputElm.value);
+        //     inputElm.value = "";
+        // }
+
+        // let buttonElm = document.querySelector("Add")
+        // buttonElm.onclick = getUserItem();
+        let listElement = document.querySelector(".list");
+
+        function addItemToList(item){
+            let itemElement = document.createElement("li");
+            itemElement.textContent = item;
+            listElement.appendChild(itemElement);
+        }
+
+        //Define a function getNewItem, which prompts the user for ONE new item, and adds to list if valid
+        function getNewItem() {
+            //prompt user for new item
+            let item = document.querySelector(".text");
+            addItemToList(item.value);
+            item.value = "";
+            //Only do if not "Cancel" or empty
+            if (item != null && item.trim() != "") {
+                //Call the addItem function, passing item as a parameter.
+                addItemToList(item);
+            }
+        }
+
+        //The original loop and prompts are removed.
+
+        //Get the button element.
+        let buttonElement = document.querySelector("#Add");
+        //Register getNewItem as a "handler" for the button's event "click"
+        //Setting the onclick property of the element is one way to do this.
+        buttonElement.onclick = getNewItem;
+
+    
+    </script>
+
+</body>
+</html>
