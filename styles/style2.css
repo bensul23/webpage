@@ -46,6 +46,7 @@ div.list{
     border-color: blueviolet;
     border-image: url(border.png) round;
     border-image-slice: 40%;
+    width: 500px;
 }
 
 .pogging{
