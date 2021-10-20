@@ -53,6 +53,31 @@ div.vid{
     padding:0;
 }
 
+.amogus{
+    position:absolute;
+    right: 0px;
+    top: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+iframe{
+    position:absolute;
+    right:10px;
+}
+
+#amongus{
+    position:absolute;
+    right:150px;
+    top:15px;
+    bottom:15px;
+    width:170px;
+    height:25px;
+    background-color: crimson;
+    color:rgb(16, 218, 93);
+    font-size:24px;
+}
+
 .pogging{
     position:fixed;
     width:fit-content;
@@ -65,7 +90,7 @@ div.vid{
     background-color: honeydew;
     padding:5px;
     width:200px;
-    height:50px;
+    height:35px;
     border:solid blue;
 }
 
