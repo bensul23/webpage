@@ -15,10 +15,10 @@ li{
 #name{
     left:0;
 }
-
+   
 .centered{
     /*margin: 0 auto;*/
-    padding-left: 10cm;
+    
 }
 
 #picture{
@@ -45,6 +45,7 @@ div.list{
     border-image: url(border.png) round;
     border-image-slice: 40%;
     width: 500px;
+    margin-bottom: 25px;
 }
 
 .pogging{
@@ -76,6 +77,53 @@ div.page2{
     background-color: darkslateblue;
 }
 
+a{
+    color:aliceblue;
+}
+
+a.butter{
+    color:darkmagenta;
+    position:relative;
+    left:25%;
+}
+
+a.anti{
+    color:mediumpurple;
+    position:relative;
+    left:25%;
+    line-height:30px;
+}
+
+a.rando{
+    color:rgb(238, 56, 11);
+    position:relative;
+    left:25%;
+    line-height:30px;
+}
+
+h3{
+    margin-top: 25px;
+    position:relative;
+    left:40%;
+    margin-bottom:20px;
+    width:165px;
+    height:30px;
+    border: 5px purple dotted;
+    font-size: 25px;
+}
+
+div.colorpls{
+    background-color: rgb(176, 127, 255);
+    width:400px;
+    margin-left:10px;
+}
+
+#yasuo{
+    width:500px;
+    background-color: blue;
+    color:white;
+    margin-left:10px;
+}
 
 /*
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
