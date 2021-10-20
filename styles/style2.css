@@ -76,6 +76,10 @@ div.page2{
     background-color: darkslateblue;
 }
 
+span.def{
+            text-decoration: double;
+}
+
 /*
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position2
