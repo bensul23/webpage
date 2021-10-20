@@ -39,8 +39,18 @@ div.list{
     border-color: blueviolet;
     border-image: url(border.png) round;
     border-image-slice: 40%;
-    width: 500px;
+    width: 900px;
     margin-bottom: 25px;
+}
+
+div.vid{
+    position:absolute;
+    right:20px;
+    top:10px;
+}
+#desc2{
+    margin-bottom:0;
+    padding:0;
 }
 
 .pogging{
