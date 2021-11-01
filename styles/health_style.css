@@ -3,10 +3,23 @@ html{
 }
 
 #sidebar{
-    height:2000px;
+    height:3000px;
     width:200px;
     position:absolute;
     background-color: blueviolet;
+}
+
+
+.home{
+    width:150px;
+    height:100px;
+    position:fixed;
+    right:0;
+    top:0;
+    background-color: grey;
+    color:purple;
+    font-size: 36px;
+    
 }
 
 .desc{
@@ -23,7 +36,7 @@ html{
     position:sticky;
     margin-left:2cm;
     font-size:36px;
-    padding-left:500px;
+    padding-left:350px;
 }
 
 div.sec1{
@@ -35,7 +48,7 @@ div.sec1{
 #many{
     position:absolute;
     bottom:0px;
-    left:550px;
+    left:400px;
     margin-bottom:100px;
 }
 
@@ -51,7 +64,7 @@ div.sec21{
     margin-top:250px;
     background-color:darkslategray;
     width:500px;
-    margin-left:625px;
+    margin-left:500px;
 }
 
 #safe{
@@ -80,5 +93,66 @@ div.sec21{
     border:4px solid pink;
     color:orange;
     line-height: 25px;
-    
+    position:absolute;
+    left:350px;
+}
+
+div.sec3{
+    position:relative;
+    width:1000px;
+    height:500px;
+}
+
+.desc3{
+    background-color:cadetblue;
+    font-size:24px;
+    position:absolute;
+    left:250px;
+    width:410px;
+    top:100px;
+    padding:10px;
+}
+
+.desc31{
+    background-color:cadetblue;
+    font-size:24px;
+    position:absolute;
+    left:800px;
+    width:410px;
+    top:100px;
+    padding:10px;
+}
+
+.head3{
+    position:absolute;
+    left:250px;
+    width:400px;
+    text-decoration: underline;
+}
+
+.head31{
+    position:absolute;
+    left:800px;
+    width:400px;
+    text-decoration: underline;
+    top:40px;
+}
+
+.sec4{
+    position:relative;
+}
+
+.head4{
+    position:absolute;
+    left:550px;
+}
+
+.desc4{
+    position:absolute;
+    left:400px;
+    font-size: 24px;
+    background-color: olivedrab;
+    color:red;
+    top:100px;
+    width:600px;
 }
