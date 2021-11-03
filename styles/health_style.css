@@ -188,5 +188,59 @@ div.sec3{
     position:absolute;
     left:500px;
     bottom:0px;
+}
+
+.sec6{
+    position:relative;
+    left:400px;
+    height:400px;
+}
+
+#contain{
+    font-size:28px;
+    font-weight:400;
+}
+
+.head6{
+    font-size: 36px;
+    padding-left:200px;
+}
+
+.desc6{
+    font-size: 24px;
+    background-color:dimgrey;
+    color:magenta;
+    width:500px;
+}
+
+.sec7{
+    position:relative;
+    height:400px;
+    left:400px;
+}
+
+.head7{
+    left:200px;
+    font-size: 28px;
 
 }
+
+.desc7{
+    width:500px;
+    left:100px;
+    background-color: burlywood;
+    font-size: 24px;
+    color:forestgreen;
+}
+
+.sec8{
+    position:relative;
+    left:400px;
+    height:650px;
+}
+
+.head8{
+    
+}
+
+
