@@ -80,8 +80,7 @@ iframe{
 
 .pogging{
     position:fixed;
-    width:fit-content;
-    height:fit-content;
+
     right:0;
     bottom:0px;
 }
@@ -92,7 +91,15 @@ iframe{
     width:200px;
     height:35px;
     border:solid blue;
+
+
 }
+
+
+
+
+
+
 
 div.page2.list2{
     border-width: 2px;

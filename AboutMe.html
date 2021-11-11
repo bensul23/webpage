@@ -7,8 +7,10 @@
     <title>About Me</title>
 </head>
 
-<body>
+<body class="bd">
     <h1 id="name">Benen Sullivan</h1>
+
+    
 
     <div class="amogus">
     <p id="amongus">Sweet tunes ---></p>
@@ -31,34 +33,30 @@
 
     <div class="list">
     
-    <ol>
-        <li>Astronomy</li>
-        <li>Computer Security</li>
-        <li>Webpages</li>
-        <li>Dog with the butter on his head</li>
-        <li>Artificial Intelligence</li>
-        <li>Not tilting at league</li>
-        <li>Dog with the butter on him</li>
-    </ol>
+        <ol>
+            <li>Astronomy</li>
+            <li>Computer Security</li>
+            <li>Webpages</li>
+            <li>Dog with the butter on his head</li>
+            <li>Artificial Intelligence</li>
+            <li>Not tilting at league</li>
+            <li>Dog with the butter on him</li> 
+        </ol>
 
-    <div class="vid">
-    <p id="desc2">LOOK AT THE CLEANSE LOOK AT THE MOVES FAKER WHAT WAS THAT</p>
-    <video width="480" height="320" controls>
-        <source src="images/DBZ hook clash 10 17.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video>
-    </div>
-
-    
+        <div class="vid">
+            <p id="desc2">LOOK AT THE CLEANSE LOOK AT THE MOVES FAKER WHAT WAS THAT</p>
+            <video width="480" height="320" controls>
+                <source src="images/DBZ hook clash 10 17.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
 
     </div>
 
     
 
 
-    <div class="pogging">
-        <p id = "pogtext">Me when I see butter dog <br> (he is very handsome)</p><img src="images/midbeast pog.png" alt="best league player in world" title="Doesn't like to bring it up but he beat dopa">
-    </div>
+  
     
     <h3>Some cool sites</h3>
 
@@ -68,6 +66,64 @@
 
     <p><a class = "rando" target="_blank" href="https://www.youtube.com/watch?v=grd-K33tOSM">Absolute Banger</a> </p>
 
+
+    <div class="pogging">
+        <button id="bt" style="position:absolute;right:0;">Click it you won't</button>
+        <p id = "pogtext">Me when I see butter dog <br> (he is very handsome)</p>
+        <img class = "pogimg" src="images/midbeast pog.png" alt="best league player in world" title="Doesn't like to bring it up but he beat dopa">
+    </div>
+
+
+
+
+    <script>
+        //let b = document.createElement("button");
+        //let d = new Date();
+        let bt = document.querySelector("#bt");
+        bt.style["bottom"] = "250px";
+
+        function sleep(ms){
+            return new Promise(resolve => setTimeout(resolve,ms));
+        }
+        
+        async function alternating(){
+            let i = document.querySelector(".pogimg");
+            let p = document.querySelector(".pogging");
+            let bod = document.querySelector(".bd");
+            
+
+            for(let j = 0; j<20; j++){
+                //p.removeChild(i);
+               //b.appendChild(i);
+                i.style["position"] = "fixed";
+                i.style["right"] = "50%";
+                i.style["top"] = "90px";
+                i.setAttribute("width", "900");
+                await sleep(75);
+
+                //bod.removeChild(i);
+                //p.appendChild(i);
+                i.style["position"] = "static";
+                
+                i.setAttribute("width", "400");
+                await sleep(75);
+
+                bt.style["position"] = "absolute";
+                bt.style["bottom"] = "300px";
+
+            }
+            p.setAttribute("width", "400px");
+
+            
+            
+        }
+
+        let b = document.querySelector("button");
+        b.addEventListener("click", alternating);
+
+
+
+    </script>
     
 </body>
 
