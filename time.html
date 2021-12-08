@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello World</p>
+    <button>What time is it?</button>
+
+    <script>
+        
+        let x = 0;
+        updateTime = () => {
+            document.querySelector("button").addEventListener("click", time);
+            x++;
+            console.log("updated")
+        }
+
+        time = () => {let currentTime = new Date(); 
+            document.querySelector("button").innerHTML = "Current Time: " + currentTime.getHours() + ":" + currentTime.getMinutes() + ":" + currentTime.getSeconds();}
+
+
+
+        function failedfunc(){
+            console.log("unlucky");
+        }
+
+        const promiseA = new Promise( (myResolve, myFail) => {
+            console.log("inside func");
+            if(1 == 1){
+                myFail("failed");
+            }
+            myResolved("I didn't fail");
+        })
+
+        promiseA.then((res) => {console.log(res + " - this promise was a success!!")}, 
+                   (L) => {console.log(L + " - Maybe I shouldn't be teaching this")});
+
+        console.log("hi");
+        updateTime();
+
+
+    </script>
+
+<a href="https://bensul23.github.io/webpage/Timer">Next page</a>
+</body>
+</html>

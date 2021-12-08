@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript SetTimeout()</h2>
+
+<p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+
+<h1 id="demo"></h1>
+
+<script>
+setTimeout(function() { myFunction("Hello"); }, 3000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+</script>
+
+<a href="https://bensul23.github.io/webpage/async">Next page</a>
+
+</body>
+</html>
