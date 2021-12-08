@@ -9,6 +9,13 @@
 <h3 id="demo3"></h3>
 
 <script>
+
+    function prom4(input){
+       return new Promise( (resolve) => {
+      setTimeout(() => resolve(input + " this was chained"), 1000)
+  })
+    }
+
 async function myDisplay() {
   let myPromise = new Promise((resolve) => {
    	setTimeout(() => resolve("Hi"), 1000)
@@ -21,12 +28,20 @@ async function myDisplay() {
 
   
   let myPromise3 = new Promise((resolve) => {
-   	setTimeout(() => resolve("Hey"), 1000)
+   	setTimeout(() => console.log("hey"), 1000);
+    resolve("Hey");
   });
+  
+  /*
+  let myPromise4 = new Promise( (resolve) => {
+      setTimeout(() => resolve(" this was chained"), 1000)
+  })
+  */
 
   document.getElementById("demo").innerHTML = await myPromise;
   document.getElementById("demo2").innerHTML = await myPromise2;
-  document.getElementById("demo3").innerHTML = await myPromise3.then((val) => {return val + " this was chained"});
+  let dem3 = await myPromise3;
+  document.getElementById("demo3").innerHTML = await prom4(dem3);
 }
 
 myDisplay();
